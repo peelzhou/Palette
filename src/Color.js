@@ -25,7 +25,7 @@ const Cell = ({ columnIndex, rowIndex, style }) => {
     //Use different rgb color components to get unique colors.
     //The number is just the sign to show how many different colors has been shown on the palette.
     <SingleColor style={style} colorComp={color.colorComp}>
-      {number}
+      {number + 1}
     </SingleColor>
   );
 };
